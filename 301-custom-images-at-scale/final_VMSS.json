@@ -71,7 +71,7 @@
               "createOption": "FromImage",
               "osType": "[parameters('OSType')]",
               "image": {
-                "uri": "[concat('https://',uniqueString(concat(resourceGroup().id, parameters('uniquePrefix'), copyIndex())), parameters('uniquePrefix'),'.blob.core.windows.net/vhds/',parameters('blobName'))]"
+                "uri": "[concat('https://',uniqueString(concat(resourceGroup().id, parameters('uniquePrefix'), copyIndex())), parameters('uniquePrefix'),'.blob.core.usgovcloudapi.net/vhds/',parameters('blobName'))]"
               }
             }
           },
